@@ -1,0 +1,21 @@
+Key,Type,Desc,English
+
+Parts/Title/iss_pma1,Text,,PMA-1 "Rainbow"
+Parts/Subtitle/iss_pma1,Text,,Pressurized Mating Adapter
+Parts/Manufacturer/iss_pma1,Text,,Boeing – Huntington Beach
+Parts/Description/iss_pma1,Text,,This adapter is used on the ISS to convert a CBM interface to an APAS-95 docking port. PMA-1 was launched with the Unity module in 1998 aboard STS-88.
+
+Parts/Title/iss_apas-95,Text,,APAS-95 "Handshake"
+Parts/Subtitle/iss_apas-95,Text,,Androgynous Peripheral Attach System
+Parts/Manufacturer/iss_apas-95,Text,,RKK Energiya
+Parts/Description/iss_apas-95,Text,,APAS-95 is an androgynous docking system used on the American and Russian modules on the ISS and to allow the Space Shuttle to dock.
+
+Parts/Title/iss_cbm,Text,,CBM "Omelet"
+Parts/Subtitle/iss_cbm,Text,,Common Berthing Mecanism
+Parts/Manufacturer/iss_cbm,Text,,Boeing
+Parts/Description/iss_cbm,Text,,The CBM is used to connect habitable elements in the US Orbital Segment of the ISS. It is a non-androgynous system in reality but has been made this way in the game for simplicity.
+
+Parts/Title/xxx,Text,,xxx
+Parts/Subtitle/xxx,Text,,xxx
+Parts/Manufacturer/xxx,Text,,xxx
+Parts/Description/xxx,Text,,xxx

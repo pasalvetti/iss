@@ -1,0 +1,12 @@
+References/
+Unity/ISS/Assets/*
+!Unity/ISS/Assets/*.json
+Unity/ISS/Library/
+Unity/ISS/Logs/
+Unity/ISS/Packages/
+Unity/ISS/ProjectSettings/
+Unity/ISS/UserSettings/
+Scripts/
+*.sauv*
+*.blend1
+*.spp*
