@@ -20,6 +20,11 @@ Parts/Subtitle/iss_unity,Text,,The main ISS node
 Parts/Manufacturer/iss_unity,Text,,Boeing
 Parts/Description/iss_unity,Text,,"Unity is the first U.S.-built component of the ISS, linking the laboratory's Russian Orbital Segment and US Orbital Segment. Unity was launched on 4 December 1998, aboard Space Shuttle Endeavour on STS-88."
 
+Parts/Title/iss_zarya,Text,,FGB "Zarya"
+Parts/Subtitle/iss_zarya,Text,,Functional Cargo Block
+Parts/Manufacturer/iss_zarya,Text,,GKNPZ Khrounitchev
+Parts/Description/iss_zarya,Text,,"Sarya is the first module of the ISS to have been launched. It provided electrical power, storage, propulsion, and guidance to the ISS during the initial stage of assembly but is now essentially used for storage."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
