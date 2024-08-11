@@ -15,6 +15,11 @@ Parts/Subtitle/iss_cbm,Text,,Common Berthing Mecanism
 Parts/Manufacturer/iss_cbm,Text,,Boeing
 Parts/Description/iss_cbm,Text,,The CBM is used to connect habitable elements in the US Orbital Segment of the ISS. It is a non-androgynous system in reality but has been made this way in the game for simplicity.
 
+Parts/Title/iss_unity,Text,,NODE-1 "Unity"
+Parts/Subtitle/iss_unity,Text,,The main ISS node
+Parts/Manufacturer/iss_unity,Text,,Boeing
+Parts/Description/iss_unity,Text,,"Unity is the first U.S.-built component of the ISS, linking the laboratory's Russian Orbital Segment and US Orbital Segment. Unity was launched on 4 December 1998, aboard Space Shuttle Endeavour on STS-88."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
