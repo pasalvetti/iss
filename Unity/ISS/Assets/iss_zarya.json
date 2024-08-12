@@ -76,13 +76,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 4.3,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 3.85,
           "z": 0.0
         },
         "orientation": {
-          "x": 1.0,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 1.0,
           "z": 0.0
         },
         "size": 0,
@@ -106,13 +106,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -3.9,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -4.15,
           "z": 0.0
         },
         "orientation": {
-          "x": -1.0,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -1.0,
           "z": 0.0
         },
         "size": 0,
@@ -136,13 +136,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -3.25,
-          "y": -0.65,
+          "x": -0.6,
+          "y": 3.25,
           "z": 0.0
         },
         "orientation": {
-          "x": 0.0,
-          "y": -1.0,
+          "x": -1.0,
+          "y": 0.0,
           "z": 0.0
         },
         "size": 0,
@@ -173,7 +173,7 @@
         "orientation": {
           "x": 0.0,
           "y": 0.0,
-          "z": 1.0
+          "z": -1.0
         },
         "size": 0,
         "visualSize": 0.0,

@@ -76,13 +76,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 1.6,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 1.6,
           "z": 0.0
         },
         "orientation": {
-          "x": 2.0,
-          "y": 0.0,
+          "x": 0.0,
+          "y": 1.0,
           "z": 0.0
         },
         "size": 0,
@@ -106,13 +106,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -1.6,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -1.6,
           "z": 0.0
         },
         "orientation": {
-          "x": -2.0,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -1.0,
           "z": 0.0
         },
         "size": 0,
@@ -136,13 +136,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 0.39,
-          "y": 1.22,
+          "x": 1.22,
+          "y": -0.39,
           "z": 0.0
         },
         "orientation": {
-          "x": 0.0,
-          "y": 4.0,
+          "x": 1.0,
+          "y": 0.0,
           "z": 0.0
         },
         "size": 0,
@@ -166,13 +166,13 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 0.39,
-          "y": -1.22,
+          "x": -1.22,
+          "y": -0.39,
           "z": 0.0
         },
         "orientation": {
-          "x": 0.0,
-          "y": -2.0,
+          "x": -1.0,
+          "y": 0.0,
           "z": 0.0
         },
         "size": 0,
@@ -196,14 +196,14 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 0.39,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -0.39,
           "z": 1.22
         },
         "orientation": {
           "x": 0.0,
           "y": 0.0,
-          "z": 2.0
+          "z": 1.0
         },
         "size": 0,
         "visualSize": 0.0,
@@ -226,14 +226,14 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 0.39,
-          "y": 0.0,
+          "x": 0.0,
+          "y": -0.39,
           "z": -1.22
         },
         "orientation": {
           "x": 0.0,
           "y": 0.0,
-          "z": -2.0
+          "z": -1.0
         },
         "size": 0,
         "visualSize": 0.0,
