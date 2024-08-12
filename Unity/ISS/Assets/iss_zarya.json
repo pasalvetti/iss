@@ -76,12 +76,12 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 4.1,
+          "x": 4.3,
           "y": 0.0,
           "z": 0.0
         },
         "orientation": {
-          "x": 4.0,
+          "x": 1.0,
           "y": 0.0,
           "z": 0.0
         },
@@ -106,12 +106,12 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -3.7,
+          "x": -3.9,
           "y": 0.0,
           "z": 0.0
         },
         "orientation": {
-          "x": -4.0,
+          "x": -1.0,
           "y": 0.0,
           "z": 0.0
         },
@@ -137,13 +137,43 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": -3.25,
-          "y": -0.45,
+          "y": -0.65,
           "z": 0.0
         },
         "orientation": {
           "x": 0.0,
-          "y": -4.0,
+          "y": -1.0,
           "z": 0.0
+        },
+        "size": 0,
+        "visualSize": 0.0,
+        "isResourceCrossfeed": false,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "srfAttach",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Surface",
+        "attachMethod": "HINGE_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
         },
         "size": 0,
         "visualSize": 0.0,
