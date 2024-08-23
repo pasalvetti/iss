@@ -366,6 +366,166 @@
             }
           }
         ]
+      },
+      {
+        "Name": "PartComponentModule_RCS",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_RCS",
+            "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_RCS, Assembly-CSharp",
+              "isEnabled": {
+                "ContextKey": "isEnabled",
+                "storedValue": true
+              },
+              "thrustPercentage": {
+                "ContextKey": "thrustPercentage",
+                "storedValue": 100.0
+              },
+              "IsAdvancedSettingsShown": {
+                "ContextKey": "IsAdvancedSettingsShown",
+                "storedValue": false
+              },
+              "enablePitch": {
+                "ContextKey": "enablePitch",
+                "storedValue": true
+              },
+              "enableYaw": {
+                "ContextKey": "enableYaw",
+                "storedValue": true
+              },
+              "enableRoll": {
+                "ContextKey": "enableRoll",
+                "storedValue": true
+              },
+              "enableX": {
+                "ContextKey": "enableX",
+                "storedValue": true
+              },
+              "enableY": {
+                "ContextKey": "enableY",
+                "storedValue": true
+              },
+              "enableZ": {
+                "ContextKey": "enableZ",
+                "storedValue": true
+              },
+              "foreByThrottle": {
+                "ContextKey": "foreByThrottle",
+                "storedValue": false
+              },
+              "fullThrust": {
+                "ContextKey": "fullThrust",
+                "storedValue": false
+              },
+              "Propellant": {
+                "mixtureName": "Monopropellant",
+                "mixtureMultiplier": 1.0,
+                "ignoreForThrustCurve": false,
+                "ingredientOverrides": []
+              },
+              "maxThrust": 1.0,
+              "shieldedCanActivate": false,
+              "atmosphereCurve": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 240.0,
+                      "inTangent": -140.0,
+                      "outTangent": -140.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.3,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 100.0,
+                      "inTangent": -10.0,
+                      "outTangent": -10.0,
+                      "inWeight": 0.3,
+                      "outWeight": 0.3,
+                      "weightedMode": "None",
+                      "tangentMode": 0
+                    },
+                    {
+                      "time": 4.0,
+                      "value": 0.001,
+                      "inTangent": 2.0,
+                      "outTangent": 2.0,
+                      "inWeight": 0.5,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 0
+                    }
+                  ],
+                  "length": 3,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "useThrustCurve": false,
+              "thrustCurve": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 240.0,
+                      "inTangent": -140.0,
+                      "outTangent": -140.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.3,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 100.0,
+                      "inTangent": -10.0,
+                      "outTangent": -10.0,
+                      "inWeight": 0.3,
+                      "outWeight": 0.3,
+                      "weightedMode": "None",
+                      "tangentMode": 0
+                    },
+                    {
+                      "time": 4.0,
+                      "value": 0.001,
+                      "inTangent": 2.0,
+                      "outTangent": 2.0,
+                      "inWeight": 0.5,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 0
+                    }
+                  ],
+                  "length": 3,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "disableUnderwater": false,
+              "fullThrustMin": 0.2,
+              "useLever": true,
+              "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
       }
     ],
     "resourceSummary": {
@@ -374,7 +534,14 @@
       "Contains": []
     },
     "PAMModuleSortOverride": [],
-    "PAMModuleVisualsOverride": [],
+    "PAMModuleVisualsOverride": [
+      {
+        "PartComponentModuleName": "PartComponentModule_RCS",
+        "ModuleDisplayName": "",
+        "ShowHeader": false,
+        "ShowFooter": false
+      }
+    ],
     "collisionVolumeBoundsScale": {
       "x": 1.0,
       "y": 1.0,
