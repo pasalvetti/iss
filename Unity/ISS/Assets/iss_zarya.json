@@ -477,7 +477,7 @@
     "PAMModuleSortOverride": [],
     "PAMModuleVisualsOverride": [
       {
-        "PartComponentModuleName": "PartComponentModule_RCS",
+        "PartComponentModuleName": "",
         "ModuleDisplayName": "",
         "ShowHeader": false,
         "ShowFooter": false
