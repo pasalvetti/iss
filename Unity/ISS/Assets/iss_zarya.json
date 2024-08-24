@@ -368,157 +368,98 @@
         ]
       },
       {
-        "Name": "PartComponentModule_RCS",
-        "ComponentType": "KSP.Sim.impl.PartComponentModule_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "BehaviourType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Name": "PartComponentModule_Deployable",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
         "ModuleData": [
           {
-            "Name": "Data_RCS",
-            "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Name": "Data_Deployable",
+            "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
             "Data": null,
             "DataObject": {
-              "$type": "KSP.Modules.Data_RCS, Assembly-CSharp",
-              "isEnabled": {
-                "ContextKey": "isEnabled",
-                "storedValue": true
-              },
-              "thrustPercentage": {
-                "ContextKey": "thrustPercentage",
-                "storedValue": 100.0
-              },
-              "IsAdvancedSettingsShown": {
-                "ContextKey": "IsAdvancedSettingsShown",
+              "$type": "KSP.Modules.Data_Deployable, Assembly-CSharp",
+              "toggleExtend": {
+                "ContextKey": "toggleExtend",
                 "storedValue": false
               },
-              "enablePitch": {
-                "ContextKey": "enablePitch",
-                "storedValue": true
+              "DeployLimit": {
+                "ContextKey": "DeployLimit",
+                "storedValue": 1.0
               },
-              "enableYaw": {
-                "ContextKey": "enableYaw",
-                "storedValue": true
+              "AnimationNormalizedTime": {
+                "ContextKey": "AnimationNormalizedTime",
+                "storedValue": 0.0
               },
-              "enableRoll": {
-                "ContextKey": "enableRoll",
-                "storedValue": true
+              "CurrentDeployState": {
+                "ContextKey": null,
+                "storedValue": "Retracted"
               },
-              "enableX": {
-                "ContextKey": "enableX",
-                "storedValue": true
+              "showStatus": true,
+              "isTracking": true,
+              "applyShielding": true,
+              "applyShieldingExtend": true,
+              "retractable": true,
+              "extendable": true,
+              "TrackingAlignmentOffset": 0.0,
+              "trackingSpeed": 0.25,
+              "EditorAnimSpeedMul": 10.0,
+              "pivotName": "",
+              "alignType": "",
+              "secondaryTransform": "",
+              "animationName": "",
+              "trackingMode": "None",
+              "rotationMode": "YAW",
+              "originalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
               },
-              "enableY": {
-                "ContextKey": "enableY",
-                "storedValue": true
+              "currentRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
               },
-              "enableZ": {
-                "ContextKey": "enableZ",
-                "storedValue": true
+              "targetGUID": "myTargetGUID",
+              "LimitRotation": false,
+              "UseDeployLimit": false,
+              "AxisMinMaxRotation": {
+                "x": -180.0,
+                "y": 180.0
               },
-              "foreByThrottle": {
-                "ContextKey": "foreByThrottle",
-                "storedValue": false
-              },
-              "fullThrust": {
-                "ContextKey": "fullThrust",
-                "storedValue": false
-              },
-              "Propellant": {
-                "mixtureName": "Monopropellant",
-                "mixtureMultiplier": 1.0,
-                "ignoreForThrustCurve": false,
-                "ingredientOverrides": []
-              },
-              "maxThrust": 1.0,
-              "shieldedCanActivate": false,
-              "atmosphereCurve": {
-                "fCurve": {
-                  "keys": [
-                    {
-                      "time": 0.0,
-                      "value": 240.0,
-                      "inTangent": -140.0,
-                      "outTangent": -140.0,
-                      "inWeight": 0.0,
-                      "outWeight": 0.3,
-                      "weightedMode": "None",
-                      "tangentMode": 34
-                    },
-                    {
-                      "time": 1.0,
-                      "value": 100.0,
-                      "inTangent": -10.0,
-                      "outTangent": -10.0,
-                      "inWeight": 0.3,
-                      "outWeight": 0.3,
-                      "weightedMode": "None",
-                      "tangentMode": 0
-                    },
-                    {
-                      "time": 4.0,
-                      "value": 0.001,
-                      "inTangent": 2.0,
-                      "outTangent": 2.0,
-                      "inWeight": 0.5,
-                      "outWeight": 0.0,
-                      "weightedMode": "None",
-                      "tangentMode": 0
-                    }
-                  ],
-                  "length": 3,
-                  "preWrapMode": "ClampForever",
-                  "postWrapMode": "ClampForever"
-                },
-                "_minTime": 3.40282347E+38,
-                "_maxTime": -3.40282347E+38
-              },
-              "useThrustCurve": false,
-              "thrustCurve": {
-                "fCurve": {
-                  "keys": [
-                    {
-                      "time": 0.0,
-                      "value": 240.0,
-                      "inTangent": -140.0,
-                      "outTangent": -140.0,
-                      "inWeight": 0.0,
-                      "outWeight": 0.3,
-                      "weightedMode": "None",
-                      "tangentMode": 34
-                    },
-                    {
-                      "time": 1.0,
-                      "value": 100.0,
-                      "inTangent": -10.0,
-                      "outTangent": -10.0,
-                      "inWeight": 0.3,
-                      "outWeight": 0.3,
-                      "weightedMode": "None",
-                      "tangentMode": 0
-                    },
-                    {
-                      "time": 4.0,
-                      "value": 0.001,
-                      "inTangent": 2.0,
-                      "outTangent": 2.0,
-                      "inWeight": 0.5,
-                      "outWeight": 0.0,
-                      "weightedMode": "None",
-                      "tangentMode": 0
-                    }
-                  ],
-                  "length": 3,
-                  "preWrapMode": "ClampForever",
-                  "postWrapMode": "ClampForever"
-                },
-                "_minTime": 3.40282347E+38,
-                "_maxTime": -3.40282347E+38
-              },
-              "disableUnderwater": false,
-              "fullThrustMin": 0.2,
-              "useLever": true,
-              "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-              "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DefaultActionGroup": "None",
+              "deployCrashTolerance": 10.0,
+              "deployMaxTemp": 2000.0,
+              "deployBreakingForce": 200.0,
+              "deployBreakingTorque": 200.0,
+              "DisableAnimatorWhenInactive": false,
+              "AnimDeployStateKey": "isDeployed",
+              "AnimSpeedMultiplierKey": "playbackMul",
+              "AnimReverseStateTransitionTriggerKey": "reverseAnimStateChange",
+              "AnimDeployLimitKey": "deployLimitValue",
+              "DefaultRetractedAnimSpeedValue": 1000.0,
+              "DefaultExtendedAnimSpeedValue": 1000.0,
+              "DeployPartTypeName": "PartModules/Deployable/PartType",
+              "OneTimeExtendActionName": "PartModules/Deployable/ExtendOnly",
+              "DeployToggleActionName": "PartModules/Deployable/Toggle",
+              "ActionGroupToggleName": "PartModules/Deployable/ToggleExtended/Toggle",
+              "ActionGroupExtendName": "PartModules/Deployable/ToggleExtended/Extend",
+              "ActionGroupRetractName": "PartModules/Deployable/ToggleExtended/Retract",
+              "DeployStateRetractedName": "PartModules/Deployable/State/Retracted",
+              "DeployStateExtendedName": "PartModules/Deployable/State/Extended",
+              "DeployStateMovingName": "PartModules/Deployable/State/Moving",
+              "DeployStateBlockedName": "PartModules/Deployable/State/Blocked",
+              "DeployStateExtendedCannotRetractName": "PartModules/Deployable/State/CannotRetract",
+              "DeployRetractedCannotRetractName": "PartModules/Deployable/State/RetractedCannotRetract",
+              "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsExtended": false,
+              "IsRetracted": true,
+              "IsRetracting": false,
+              "IsExtending": false,
+              "UseAnimation": true,
+              "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false
