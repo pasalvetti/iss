@@ -23,7 +23,12 @@ Parts/Description/iss_unity,Text,,"Unity is the first U.S.-built component of th
 Parts/Title/iss_zarya,Text,,FGB "Zarya"
 Parts/Subtitle/iss_zarya,Text,,Functional Cargo Block
 Parts/Manufacturer/iss_zarya,Text,,GKNPZ Khrounitchev
-Parts/Description/iss_zarya,Text,,"Sarya is the first module of the ISS to have been launched. It provided electrical power, storage, propulsion, and guidance to the ISS during the initial stage of assembly but is now essentially used for storage."
+Parts/Description/iss_zarya,Text,,"Zarya is the first module of the ISS to have been launched. It provided electrical power, storage, propulsion, and guidance to the ISS during the initial stage of assembly but is now essentially used for storage."
+
+Parts/Title/iss_zvezda,Text,,Zvezda
+Parts/Subtitle/iss_zvezda,Text,,ISS Service Module
+Parts/Manufacturer/iss_zvezda,Text,,RKK Energiya
+Parts/Description/iss_zvezda,Text,,"Zvezda provides some of the ISS's life support systems, as well as living quarters for two crew members. It is the structural and functional center of the Russian Orbital Segment."
 
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
