@@ -8,7 +8,7 @@ Parts/Description/iss_pma1,Text,,This adapter is used on the ISS to convert a CB
 Parts/Title/iss_pma23,Text,,PMA-2/3 "Bullhead"
 Parts/Subtitle/iss_pma23,Text,,Pressurized Mating Adapter
 Parts/Manufacturer/iss_pma23,Text,,Boeing – Huntington Beach
-Parts/Description/iss_pma23,Text,,"This adapter is used on the ISS to convert a CBM interface to an APAS-95 docking port. PMA-2 was launched with the Unity module in 1998 aboard STS-88. It was outfitted with Station-to-Shuttle Power Transfer System hardware to allow the shuttles to stay docked longer to the space station. PMA-3 was launched in 2000 aboard STS-92."
+Parts/Description/iss_pma23,Text,,"This adapter is used on the ISS to convert a CBM interface to an APAS-95 docking port. PMA-2 was launched with the Unity module in 1998 aboard STS-88. It was outfitted special hardware to allow the shuttles to stay docked longer. PMA-3 was launched in 2000 aboard STS-92."
 
 Parts/Title/iss_apas-95,Text,,APAS-95 "Handshake"
 Parts/Subtitle/iss_apas-95,Text,,Androgynous Peripheral Attach System
