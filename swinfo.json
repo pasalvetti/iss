@@ -1,0 +1,23 @@
+{
+  "spec": "1.3",
+  "mod_id": "com_github_polo_iss",
+  "author": "Polo",
+  "name": "Polo's ISS for KSP2",
+  "description": "Parts for an ISS build in KSP2",
+  "source": "https://github.com/pasalvetti/iss",
+  "version": "0.0.1",
+  "version_check": "https://raw.githubusercontent.com/pasalvetti/iss/main/Unity/ISS/Assets/swinfo.json",
+  "ksp2_version": {
+    "min": "0.2.2.0",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.9.5",
+        "max": "*"
+      }
+    }
+  ]
+}
