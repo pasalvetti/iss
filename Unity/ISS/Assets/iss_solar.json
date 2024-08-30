@@ -219,7 +219,7 @@
               "TrackingAlignmentOffset": 90.0,
               "trackingSpeed": 0.25,
               "EditorAnimSpeedMul": 10.0,
-              "pivotName": "iss_solar_rotator",
+              "pivotName": "bone_rotator",
               "alignType": "",
               "secondaryTransform": "raycastTransform",
               "animationName": "",
