@@ -528,6 +528,70 @@
             }
           }
         ]
+      },
+      {
+        "Name": "PartComponentModule_Command",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Command",
+            "ModuleType": "KSP.Modules.Module_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Command, Assembly-CSharp",
+              "controlStatus": {
+                "ContextKey": "controlStatus",
+                "storedValue": "FullyFunctional"
+              },
+              "isCommandEnabled": {
+                "ContextKey": "isCommandEnabled",
+                "storedValue": true
+              },
+              "activeControlName": {
+                "ContextKey": "activeControlName",
+                "storedValue": "default"
+              },
+              "hibernate": {
+                "ContextKey": "hibernate",
+                "storedValue": false
+              },
+              "hibernateInWarp": {
+                "ContextKey": "hibernateInWarp",
+                "storedValue": false
+              },
+              "minimumCrew": 0,
+              "requiredResources": [],
+              "hasHibernation": true,
+              "hibernationMultiplier": 0.01,
+              "requiresCommNet": true,
+              "alternateControlOrientations": [
+                {
+                  "Id": "Reversed",
+                  "Orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 180.0
+                  },
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  }
+                }
+              ],
+              "RequestConfigs": null,
+              "ModuleType": "KSP.Modules.Module_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsHibernating": false,
+              "DataType": "KSP.Modules.Data_Command, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
       }
     ],
     "resourceSummary": {
