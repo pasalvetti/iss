@@ -51,7 +51,7 @@
     "explosionPotential": 6.0,
     "fuelCrossFeed": true,
     "heatConductivity": 0.04,
-    "mass": 0.2,
+    "mass": 0.22,
     "maxTemp": 650.0,
     "attachRules": {
       "stack": false,
@@ -81,9 +81,9 @@
           "z": 0.0
         },
         "orientation": {
-          "x": 0.0,
+          "x": 1.0,
           "y": 0.0,
-          "z": -1.0
+          "z": 0.0
         },
         "size": 0,
         "visualSize": 0.0,
@@ -211,7 +211,7 @@
                 "storedValue": "Retracted"
               },
               "showStatus": true,
-              "isTracking": true,
+              "isTracking": false,
               "applyShielding": true,
               "applyShieldingExtend": true,
               "retractable": true,
@@ -347,7 +347,7 @@
     "oabEditorCategory": "ALL",
     "partType": "Rocket",
     "PreferredOrientation": "NONE",
-    "MirrorTechnique": "Auto",
+    "MirrorTechnique": "RotationXZ",
     "CanSuggestOrientation": false,
     "PickUpPointOffset": {
       "x": 0.0,
