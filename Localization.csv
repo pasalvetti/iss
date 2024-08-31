@@ -33,7 +33,12 @@ Parts/Description/iss_zarya,Text,,"Zarya is the first module of the ISS to have 
 Parts/Title/iss_zvezda,Text,,Zvezda
 Parts/Subtitle/iss_zvezda,Text,,ISS Service Module
 Parts/Manufacturer/iss_zvezda,Text,,RKK Energiya
-Parts/Description/iss_zvezda,Text,,"Zvezda provides some of the ISS's life support systems, as well as living quarters for two crew members. It is the structural and functional center of the Russian Orbital Segment."
+Parts/Description/iss_zvezda,Text,,"Zvezda provides essential life support systems and offers a cozy home for two lucky kerbonauts. But don't be fooled by its laid-back exterior - Zvezda can be remotely controlled, so if it ever decides to start slacking off, the KSC can give it a virtual kick in the pants."
+
+Parts/Title/iss_zvezda_solar_panel,Text,,SP-ZVZD "Watt's Up"
+Parts/Subtitle/iss_zvezda_solar_panel,Text,,Zvezda Solar Panel
+Parts/Manufacturer/iss_zvezda_solar_panel,Text,,RKK Energiya
+Parts/Description/iss_zvezda_solar_panel,Text,,"Meet the solar panel that's seen more sunrises than a rooster. This old Russian relic is a semi-large, retractable array that's more interested in reminiscing about the glory days than tracking the sun. It's like a retired cosmonaut who's content to bask in the sunlight, occasionally muttering something about 'good old Comrade Sol'."
 
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
