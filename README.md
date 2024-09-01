@@ -112,7 +112,7 @@ For example the CBM, used to connect habitable elements in the US Orbital Segmen
 ## Links
 Spacedock: https://spacedock.info/mod/3709/The%20ISS%20Construction%20Kit
 
-Contact: KSP 2 Modding Society
+Contact: [KSP 2 Modding Society](https://discord.com/channels/1078696971088433153/1279812626947379304)
 ## Credits
 For some parts of the ISS : NASA (https://github.com/nasa/NASA-3D-Resources), Zer0Frost (https://github.com/Zer0Frost/3D-ISS-for-blender)
 Adaptation & mod by Polo
