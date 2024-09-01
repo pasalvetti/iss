@@ -107,9 +107,11 @@ For example the CBM, used to connect habitable elements in the US Orbital Segmen
 5. Open the zip file and drag the included BepInEx folder into the game folder (merge folders when asked).
 ## Dependencies
 [Space Warp + BepInEx](https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx)
+
 [Patch Manager](https://spacedock.info/mod/3482/Patch%20Manager)
 ## Links
 Spacedock: https://spacedock.info/mod/3709/The%20ISS%20Construction%20Kit
+
 Contact: KSP 2 Modding Society
 ## Credits
 For some parts of the ISS : NASA (https://github.com/nasa/NASA-3D-Resources), Zer0Frost (https://github.com/Zer0Frost/3D-ISS-for-blender)
