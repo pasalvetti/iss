@@ -51,21 +51,33 @@ Meet the solar panel that's seen more sunrises than a rooster. This retractable 
 
 ![xxx icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_zvezda_solar_panel_icon.png?raw=true)
 
-
 ## Assembly
+
+For those daring enough to recreate the ISS's assembly in its historical sequence, this is the suggested procedure. In the absence of Canadarm, the use of tugs is necessary.
+
+| Element                | Launcher[^1]           | Date          | Recommended part                                                         |
+|---|---|---|---|
+| Zarya                  | Proton-K               | 1998-11-20    | Zarya, APAS-95 x3, Zvezda Solar Panel[^2] x2, RV-105 RCS x4 (stock)      |
+| Unity / PMA-1 / PMA-2  | Space Shuttle (STS-88) | 1998-12-04    | Unity, PMA-1, PMA-2/3, CMB x8, APAS-95 x2                                |
+| Zvezda                 | Proton-K               | 2000-07-12    | Zvezda, APAS-95 x4, Zvezda Solar Panel x2, Place-Anywhere RCS x8 (stock) |
+
+[^1]: Launchers are not included in this mod.
+[^2]: Zarya solar panels to be included in a future release.
+
 ## Photos
 ## Disclaimer
 The CBM is used to connect habitable elements in the US Orbital Segment of the ISS. It is a non-androgynous system in reality but has been made this way in the game for simplicity.
 ## Known Issues
 - RCS not included.
 - Parts are not available on the tech tree.
-- The Solar Panel is not self-tracking.
+- Zvezda Solar Panel is not self-tracking.
+- Zarya does not have its own solar panel yet.
 ## Installation
 Open the game folder by right-clicking on the game in your Steam library, selecting "Manage," and then clicking "Browse local files."
 
 Install the Space Warp + BepinEx plugin. https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx
 
-Download K2-D2, open the zip file, and drag the included BepInEx folder into the game folder. (merge folders when asked)
+Download xxxx, open the zip file, and drag the included BepInEx folder into the game folder. (merge folders when asked)
 ## Links
 Spacedock: 
 Contact: KSP 2 Modding Society
