@@ -104,11 +104,13 @@ For example the CBM, used to connect habitable elements in the US Orbital Segmen
 2. Install the [Space Warp + BepinEx plugin](https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx) (available on CKAN).
 3. Install the [Patch Manager plugin](https://spacedock.info/mod/3482/Patch%20Manager) (available on CKAN).
 4. Download the latest version of The ISS Construction Kit, either on [GitHub](https://github.com/pasalvetti/iss/releases) or on Spacedock.
-5. Unzip the archive and copy the "BepInEx" folder in your KSP2 installation folder.
-
-Download xxxx, open the zip file, and drag the included BepInEx folder into the game folder. (merge folders when asked)
+5. Open the zip file and drag the included BepInEx folder into the game folder (merge folders when asked).
 ## Dependencies
+[Space Warp + BepInEx](https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx)
+[Patch Manager](https://spacedock.info/mod/3482/Patch%20Manager)
 ## Links
 Spacedock: 
 Contact: KSP 2 Modding Society
 ## Credits
+For some parts of the ISS : NASA (https://github.com/nasa/NASA-3D-Resources), Zer0Frost (https://github.com/Zer0Frost/3D-ISS-for-blender)
+Adaptation & mod by Polo
