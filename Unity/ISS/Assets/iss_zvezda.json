@@ -4,8 +4,8 @@
   "data": {
     "partName": "iss_zvezda",
     "author": "Polo",
-    "category": "Payload",
-    "family": "0340-Crew Cabin",
+    "category": "Pods",
+    "family": "0025-Station",
     "childStageOffset": 0,
     "cost": 100,
     "crewCapacity": 2,
