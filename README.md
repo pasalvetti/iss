@@ -100,9 +100,11 @@ For example the CBM, used to connect habitable elements in the US Orbital Segmen
 - No reentry effects.
 - Kerbals located inside Zvezda do not show on the interior view windows.
 ## Installation
-Open the game folder by right-clicking on the game in your Steam library, selecting "Manage," and then clicking "Browse local files."
-
-Install the Space Warp + BepinEx plugin. https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx
+1. Open the game folder by right-clicking on the game in your Steam library, selecting "Manage," and then clicking "Browse local files."
+2. Install the [Space Warp + BepinEx plugin](https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx) (available on CKAN).
+3. Install the [Patch Manager plugin](https://spacedock.info/mod/3482/Patch%20Manager) (available on CKAN).
+4. Download the latest version of The ISS Construction Kit, either on [GitHub](https://github.com/pasalvetti/iss/releases) or on Spacedock.
+5. Unzip the archive and copy the "BepInEx" folder in your KSP2 installation folder.
 
 Download xxxx, open the zip file, and drag the included BepInEx folder into the game folder. (merge folders when asked)
 ## Dependencies
