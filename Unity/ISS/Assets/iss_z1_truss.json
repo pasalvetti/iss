@@ -107,7 +107,7 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": -0.37,
-          "y": -1.2,
+          "y": -1.18,
           "z": 0.03
         },
         "orientation": {
@@ -136,7 +136,7 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -1.1,
+          "x": -0.95,
           "y": 0.19,
           "z": 0.03
         },
@@ -309,10 +309,10 @@
               "TrackingAlignmentOffset": 0.0,
               "trackingSpeed": 0.25,
               "EditorAnimSpeedMul": 10.0,
-              "pivotName": null,
-              "alignType": null,
-              "secondaryTransform": null,
-              "animationName": null,
+              "pivotName": "",
+              "alignType": "",
+              "secondaryTransform": "",
+              "animationName": "",
               "trackingMode": "None",
               "rotationMode": "YAW",
               "originalRotation": {
