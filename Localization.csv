@@ -42,6 +42,11 @@ Parts/Subtitle/iss_zvezda_solar_panel,Text,,Zvezda Solar Panel
 Parts/Manufacturer/iss_zvezda_solar_panel,Text,,RKK Energiya
 Parts/Description/iss_zvezda_solar_panel,Text,,"Meet the solar panel that's seen more sunrises than a rooster. This retractable array is more interested in reminiscing about the glory days than tracking the sun. It's like a retired kerbonaut who's content to bask in the sunlight, occasionally muttering something about 'good old Comrade Sol'."
 
+Parts/Title/iss_z1_truss,Text,,Z1 Truss "Zpinny"
+Parts/Subtitle/iss_z1_truss,Text,,Z1 Truss Segment
+Parts/Manufacturer/iss_z1_truss,Text,,Boeing
+Parts/Description/iss_z1_truss,Text,,"The Z1 truss is the ISS's master of orientation, the king of control. It’s like the captain of a ship, always making sure everyone is headed in the right direction. With its gyroscopes and plasma pals, it's got the station spinning and twirling like a top, ensuring it's always facing the sun just right."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
