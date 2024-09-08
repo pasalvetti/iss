@@ -47,6 +47,11 @@ Parts/Subtitle/iss_z1_truss,Text,,Z1 Truss Segment
 Parts/Manufacturer/iss_z1_truss,Text,,Boeing
 Parts/Description/iss_z1_truss,Text,,"The Z1 truss is the ISS's master of orientation, the king of control. It’s like the captain of a ship, always making sure everyone is headed in the right direction. With its gyroscopes and plasma pals, it's got the station spinning and twirling like a top, ensuring it's always facing the sun just right."
 
+Parts/Title/iss_p6_truss,Text,,P6 Truss
+Parts/Subtitle/iss_p6_truss,Text,,P6 Truss Segment
+Parts/Manufacturer/iss_p6_truss,Text,,Boeing
+Parts/Description/iss_p6_truss,Text,,"The P6 truss was the second truss segment to be added (after the Z1 truss) because it contains a large Solar Array Wing (SAW) that generated essential electricity for the station. It was delivered by Space Shuttle Endeavour during STS-97. It was the last human spaceflight of the 20th century."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
