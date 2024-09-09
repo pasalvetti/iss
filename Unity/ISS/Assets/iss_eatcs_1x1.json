@@ -54,10 +54,10 @@
     "mass": 1.0,
     "maxTemp": 2000.0,
     "attachRules": {
-      "stack": true,
+      "stack": false,
       "srfAttach": true,
-      "allowStack": true,
-      "allowSrfAttach": true,
+      "allowStack": false,
+      "allowSrfAttach": false,
       "allowCollision": true,
       "allowDock": false,
       "allowRotate": true,

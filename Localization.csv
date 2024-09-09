@@ -52,6 +52,11 @@ Parts/Subtitle/iss_p6_truss,Text,,P6 Truss Segment
 Parts/Manufacturer/iss_p6_truss,Text,,Boeing
 Parts/Description/iss_p6_truss,Text,,"The P6 truss was the second truss segment to be added (after the Z1 truss) because it contains a large Solar Array Wing (SAW) that generated essential electricity for the station. It was delivered by Space Shuttle Endeavour during STS-97. It was the last human spaceflight of the 20th century."
 
+Parts/Title/iss_eatcs_1x1,Text,,EATCS (x1)
+Parts/Subtitle/iss_eatcs_1x1,Text,,External Active Thermal Control System
+Parts/Manufacturer/iss_eatcs_1x1,Text,,Boeing
+Parts/Description/iss_eatcs_1x1,Text,,"The ISS's a busy place, and what happens when all that activity heats things up? The station's radiators come in, space's biggest heat dump! They collect heat and reject it by use of pumped liquid state ammonia in closed-loop circuits to cool the station."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
