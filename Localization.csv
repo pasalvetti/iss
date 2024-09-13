@@ -57,6 +57,11 @@ Parts/Subtitle/iss_eatcs_1x1,Text,,External Active Thermal Control System
 Parts/Manufacturer/iss_eatcs_1x1,Text,,Boeing
 Parts/Description/iss_eatcs_1x1,Text,,"The ISS's a busy place, and what happens when all that activity heats things up? The station's radiators come in, space's biggest heat dump! They collect heat and reject it by use of pumped liquid state ammonia in closed-loop circuits to cool the station."
 
+Parts/Title/iss_saw,Text,,SAW
+Parts/Subtitle/iss_saw,Text,,Solar Array Wing
+Parts/Manufacturer/iss_saw,Text,,Lockheed Martin
+Parts/Description/iss_saw,Text,,"The ISS solar array wing is like the world's biggest beach towel, but instead of soaking up sunlight for a tan, it's powering the International Space Station to keep the lights on and the coffee brewing."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
