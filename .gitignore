@@ -12,3 +12,5 @@ Scripts/
 *.sauv*
 *.blend1
 *.spp*
+/Texture/Normal Maps/Comptes rendus normalmaps.aep
+*.aep
