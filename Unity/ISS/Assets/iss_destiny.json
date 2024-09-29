@@ -1,0 +1,550 @@
+{
+  "version": 0.3,
+  "useExternal": false,
+  "data": {
+    "partName": "iss_destiny",
+    "author": "Polo",
+    "category": "Science",
+    "family": "0560-Science Collector",
+    "childStageOffset": 0,
+    "cost": 100,
+    "crewCapacity": 4,
+    "stageOffset": 0,
+    "isCompound": false,
+    "sizeCategory": "L",
+    "stageType": "None",
+    "resourceCosts": [],
+    "tags": "",
+    "stagingIconAssetAddress": "",
+    "PartSizeDiameter": 0.0,
+    "angularDrag": 1.0,
+    "breakingForce": 100.0,
+    "breakingTorque": 100.0,
+    "buoyancy": 1.0,
+    "buoyancyUseSine": true,
+    "coLiftOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coMassOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coPressureOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coBuoyancy": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coDisplacement": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "crashTolerance": 8.0,
+    "explosionPotential": 7.0,
+    "fuelCrossFeed": true,
+    "heatConductivity": 0.12,
+    "mass": 8.7,
+    "maxTemp": 600.0,
+    "attachRules": {
+      "stack": true,
+      "srfAttach": false,
+      "allowStack": true,
+      "allowSrfAttach": true,
+      "allowCollision": true,
+      "allowDock": false,
+      "allowRotate": true,
+      "allowRoot": true
+    },
+    "attachNodes": [
+      {
+        "nodeID": "top",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.63,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": -0.17,
+          "y": 2.9,
+          "z": -0.05
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 2,
+        "visualSize": 2.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "bottom",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.63,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": -0.17,
+          "y": -2.3,
+          "z": -0.05
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 2,
+        "visualSize": 2.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      }
+    ],
+    "resourceContainers": [],
+    "AllowKinematicPhysicsIfIntersectTerrain": false,
+    "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Drag",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Drag",
+            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
+              "BodyLiftEnabled": true,
+              "DragEnabled": true,
+              "bodyLiftMultiplier": 1.0,
+              "cubes": [],
+              "weightedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedExposedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDrag": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDragMultiplier": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDepth": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "weightedSize": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "isDragCubeRotated": false,
+              "dragCubeRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "UpdateExposedArea": false,
+              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_CrewedInterior",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_CrewedInterior",
+            "ModuleType": "KSP.Modules.Module_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_CrewedInterior, Assembly-CSharp",
+              "InteriorName": "",
+              "IsProbe": false,
+              "IsExternal": false,
+              "ModuleType": "KSP.Modules.Module_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_CrewedInterior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_ScienceExperiment",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_ScienceExperiment",
+            "ModuleType": "KSP.Modules.Module_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_ScienceExperiment, Assembly-CSharp",
+              "ExperimentStandings": [],
+              "CurrentRegionIsInitial": false,
+              "LastKnownValidSituation": {
+                "CelestialBodyScalar": 0.0,
+                "ScienceRegionScalar": 0.0,
+                "SituationScalar": 0.0,
+                "ResearchLocation": null
+              },
+              "Experiments": [
+                {
+                  "ExperimentDefinitionID": "OrbitalSurvey",
+                  "CrewRequired": 3,
+                  "TimeToComplete": 500.0,
+                  "ContextualExperiment": false,
+                  "ResourcesCost": [
+                    {
+                      "Rate": 1.0,
+                      "ResourceName": "ElectricCharge",
+                      "AcceptanceThreshold": 0.01
+                    }
+                  ],
+                  "DenyInterruption": false,
+                  "ExperimentUsesResources": false,
+                  "DeployedBoolAnimatorParamName": "",
+                  "CFXName": "fx_science",
+                  "SFXEvent": "Invalid"
+                },
+                {
+                  "ExperimentDefinitionID": "CrewObservation",
+                  "CrewRequired": 1,
+                  "TimeToComplete": 0.0,
+                  "ContextualExperiment": false,
+                  "ResourcesCost": [
+                    {
+                      "Rate": 1.0,
+                      "ResourceName": "ElectricCharge",
+                      "AcceptanceThreshold": 0.01
+                    }
+                  ],
+                  "DenyInterruption": false,
+                  "ExperimentUsesResources": false,
+                  "DeployedBoolAnimatorParamName": "",
+                  "CFXName": "fx_science",
+                  "SFXEvent": "Invalid"
+                }
+              ],
+              "NotifyOnCompletion": true,
+              "ResourceThresholdMultiplier": 0.25,
+              "ModuleType": "KSP.Modules.Module_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_ScienceExperiment, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_LitPart",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_LitPart",
+            "ModuleType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_LitPart, Assembly-CSharp",
+              "LightToggle": {
+                "ContextKey": "LightToggle",
+                "storedValue": false
+              },
+              "HasEnoughResources": false,
+              "LightObjectNames": [
+                "light_internal"
+              ],
+              "LightMaterialNames": [],
+              "Duration": 1.0,
+              "ColorGradientColors": [],
+              "ColorGradientTimes": [],
+              "RedColorGradient": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 2,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "GreenColorGradient": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 2,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "BlueColorGradient": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 2,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "AlphaColorGradient": {
+                "fCurve": {
+                  "keys": [],
+                  "length": 0,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "DefaultActionGroup": "Lights",
+              "DefaultEnabledState": true,
+              "RequiredResourceName": "ElectricCharge",
+              "RequiredResourceThreshold": 1.0,
+              "LightIntensityMultiplier": 3.0,
+              "CurrentLightIntensity": 0.0,
+              "TargetLightIntensity": 0.0,
+              "DurationMultiplier": 0.0,
+              "IsTransitioning": false,
+              "Interpolation": 0.0,
+              "LightStateOnBlackout": false,
+              "ModuleType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_DataTransmitter",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_DataTransmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_DataTransmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Transmitter",
+            "ModuleType": "KSP.Modules.Module_DataTransmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Transmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Transmitter, Assembly-CSharp",
+              "CommunicationRange": 50000000.0,
+              "DataTransmissionInterval": 3.0,
+              "DataPacketSize": 2.0,
+              "RequiredResources": [
+                {
+                  "Rate": 4.0,
+                  "ResourceName": "ElectricCharge",
+                  "AcceptanceThreshold": 0.1
+                }
+              ],
+              "HasResourcesToOperate": false,
+              "HasPendingResourceActivity": false,
+              "IsTransmitting": {
+                "ContextKey": null,
+                "storedValue": false
+              },
+              "ActiveTransmissionSize": 0.0,
+              "ActiveTransmissionCompleted": 0.0,
+              "ActiveTransmissionReportId": "",
+              "ModuleType": "KSP.Modules.Module_DataTransmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Transmitter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceSummary": {
+      "Consumes": [],
+      "Generates": [],
+      "Contains": []
+    },
+    "PAMModuleSortOverride": [],
+    "PAMModuleVisualsOverride": [],
+    "collisionVolumeBoundsScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "emissiveConstant": 0.0,
+    "maximumDrag": 0.2,
+    "minimumDrag": 0.1,
+    "physicsMode": "Full",
+    "inverseStageCarryover": true,
+    "skinMassPerArea": 4.0,
+    "bodyLiftOnlyUnattachedLift": false,
+    "bodyLiftOnlyAttachName": "",
+    "maxLength": -1,
+    "radiatorHeadroom": 0.75,
+    "radiatorMax": 0.35,
+    "skinMaxTemp": 800.0,
+    "skinInternalConductionMult": 1.0,
+    "thermalMassModifier": 1.0,
+    "buoyancyUseCubeNamed": "",
+    "HasReportStorage": false,
+    "oabEditorCategory": "ALL",
+    "partType": "Rocket",
+    "PreferredOrientation": "NONE",
+    "MirrorTechnique": "Auto",
+    "CanSuggestOrientation": false,
+    "PickUpPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "PickupRotationPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Title": "iss_destiny",
+    "Subtitle": null,
+    "Manufacturer": null,
+    "Description": null
+  },
+  "modules": null,
+  "legacyModules": ""
+}

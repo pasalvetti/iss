@@ -62,6 +62,11 @@ Parts/Subtitle/iss_saw,Text,,Solar Array Wing
 Parts/Manufacturer/iss_saw,Text,,Lockheed Martin
 Parts/Description/iss_saw,Text,,"The ISS Solar Array Wings are so powerful, they could probably light up the entire galaxy if they weren't busy powering the International Space Station to keep the lights on and the coffee brewing."
 
+Parts/Title/iss_destiny,Text,,OSL-35 "Destiny"
+Parts/Subtitle/iss_destiny,Text,,Orbital research facility
+Parts/Manufacturer/iss_destiny,Text,,Boeing
+Parts/Description/iss_destiny,Text,,"The Destiny module is the primary operating facility for US research payloads aboard the ISS. This is where science gets a little... spacey."
+
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
 Parts/Manufacturer/xxx,Text,,xxx
