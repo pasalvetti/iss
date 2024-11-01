@@ -2,6 +2,8 @@ Key,Type,Desc,English
 
 VAB/PartsPicker/0025-Station,Text,,Station
 
+PartModules/Docking/Tooltip/Types/ITDP,Text,,ITDP
+
 Parts/Title/iss_pma1,Text,,PMA-1 "Rainbow"
 Parts/Subtitle/iss_pma1,Text,,Pressurized Mating Adapter
 Parts/Manufacturer/iss_pma1,Text,,Boeing – Huntington Beach
@@ -66,6 +68,11 @@ Parts/Title/iss_destiny,Text,,OSL-35 "Destiny"
 Parts/Subtitle/iss_destiny,Text,,Orbital research facility
 Parts/Manufacturer/iss_destiny,Text,,Boeing
 Parts/Description/iss_destiny,Text,,"The Destiny module is the primary operating facility for US research payloads aboard the ISS. This is where science gets a little... spacey."
+
+Parts/Title/iss_itdp,Text,,ITDP "Tiny"
+Parts/Subtitle/iss_itdp,Text,,ISS Technical Docking Port
+Parts/Manufacturer/iss_itdp,Text,,Polo Kornel Inc.
+Parts/Description/iss_itdp,Text,,"This is a hooking part to weld together two elements inside which the kerbonauts are not intended to pass through, and thus where traditional docking ports should not be used. Not compatible with other docking ports."
 
 Parts/Title/xxx,Text,,xxx
 Parts/Subtitle/xxx,Text,,xxx
