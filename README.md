@@ -133,7 +133,7 @@ This mod features a semi-realistic modeling of the ISS as some liberties were ta
 
 For example the CBM, used to connect habitable elements in the US Orbital Segment of the ISS, is a non-androgynous system in reality but has been made androgynous in the game for simplicity.
 
-This mod's author did his best to make every space shuttle assembly mission possible by allowing the elements to be stored in the stock mk3 cargo bay. Some elements may however still prove difficult to store, such as Destiny (some clipping with the cargo bay) or the P6 truss segment (you will need to tuck the radiators in).
+This mod's author did his best to make every space shuttle assembly mission possible by allowing the elements to be stored in the stock mk3 cargo bay. Some elements may however still prove difficult to fit in, such as Destiny (some clipping with the cargo bay) or the P6 truss segment (you will need to tuck the radiators in).
 
 ## Known Issues
 - RCS not included.
