@@ -116,15 +116,15 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 
 ## Pictures
 
-![The first stages of the ISS in orbit](https://github.com/pasalvetti/iss/blob/main/Communication/iss009.png?raw=true)
+![The first stages of the ISS in orbit](https://github.com/pasalvetti/iss/blob/main/Communication/iss019.png?raw=true)
 
 ![A view of the VAB with the first stages of the ISS assembled](https://github.com/pasalvetti/iss/blob/main/Communication/iss008.png?raw=true)
 
-![The Orbiter docked to the ISS](https://github.com/pasalvetti/iss/blob/main/Communication/iss015.png?raw=true)
+![The ISS as it was in 2001](https://github.com/pasalvetti/iss/blob/main/Communication/iss023.png?raw=true)
 
-![A close view of the ISS with the Shuttle docked](https://github.com/pasalvetti/iss/blob/main/Communication/iss016.png?raw=true)
+![Endeavour delivering the Destiny module during the STS-98 mission](https://github.com/pasalvetti/iss/blob/main/Communication/iss025.png?raw=true)
 
-![The Shuttle docked to the Unity](https://github.com/pasalvetti/iss/blob/main/Communication/iss017.png?raw=true)
+![The Orbiter docked to the ISS](https://github.com/pasalvetti/iss/blob/main/Communication/iss026.png?raw=true)
 
 _(shuttle not included)_
 
