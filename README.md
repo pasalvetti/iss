@@ -6,7 +6,7 @@ _An ISS parts mod for Kerbal Space Program 2_
 
 This mod seeks to provide ISS and space modeling enthusiasts with all of the station's components (eventually) so that they can recreate its construction in the historical sequence of assembly, or simply use them to construct the space station of their dreams.
 
-![The ISS above a desert](https://github.com/pasalvetti/iss/blob/main/Communication/iss012.png?raw=true)
+![The ISS above Kerbin](https://github.com/pasalvetti/iss/blob/main/Communication/iss021.png?raw=true)
 
 ## Gallery
 ### Zarya
