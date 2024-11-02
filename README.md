@@ -4,7 +4,7 @@ _An ISS parts mod for Kerbal Space Program 2_
 > [!NOTE]
 > This mod is in pre-release. It does not have all the ISS components yet.
 
-This mod seeks to provide ISS and space modeling enthusiasts with all of the station's components (eventually) so that they can recreate its construction in the historical sequence of assembly, or simply utilize them to construct the space station of their dreams.
+This mod seeks to provide ISS and space modeling enthusiasts with all of the station's components (eventually) so that they can recreate its construction in the historical sequence of assembly, or simply use them to construct the space station of their dreams.
 
 ![The ISS above a desert](https://github.com/pasalvetti/iss/blob/main/Communication/iss012.png?raw=true)
 
@@ -26,6 +26,30 @@ Unity is the first U.S.-built component of the ISS, linking the laboratory's Rus
 Zvezda provides essential life support systems and offers a cozy home for two lucky kerbonauts. But don't be fooled by its laid-back exterior - Zvezda can be remotely controlled, so if it ever decides to start slacking off, the KSC can give it a virtual kick in the pants.
 
 ![Zvezda icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_zvezda_icon.png?raw=true)
+
+### Destiny
+
+The Destiny module is the primary operating facility for US research payloads aboard the ISS. This is where science gets a little... spacey.
+
+![Destiny icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_destiny_icon.png?raw=true)
+
+### Z1 Truss
+
+The Z1 truss is the ISS's master of orientation, the king of control. It’s like the captain of a ship, always making sure everyone is headed in the right direction. With its gyroscopes and plasma pals, it's got the station spinning and twirling like a top, ensuring it's always facing the sun just right.
+
+![Z1 Truss icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_z1_truss_icon.png?raw=true)
+
+### P6 Truss
+
+The P6 truss was the second truss segment to be added (after the Z1 truss) because it contains a large Solar Array Wing (SAW) that generated essential electricity for the station. It was delivered by Space Shuttle Endeavour during STS-97. It was the last human spaceflight of the 20th century.
+
+![P6 Truss icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_p6_truss_icon.png?raw=true)
+
+### Solar Array Wing
+
+The ISS Solar Array Wings are so powerful, they could probably light up the entire galaxy if they weren't busy powering the International Space Station to keep the lights on and the coffee brewing.
+
+![SAW icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_saw_icon.png?raw=true)
 
 ### APAS-95 docking port
 
@@ -57,6 +81,20 @@ Meet the solar panel that's seen more sunrises than a rooster. This retractable 
 
 ![Zvezda Solar Panel icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_zvezda_solar_panel_icon.png?raw=true)
 
+### External Active Thermal Control System[^1]
+
+The ISS's a busy place, and what happens when all that activity heats things up? The station's radiators come in, space's biggest heat dump! They collect heat and reject it by use of pumped liquid state ammonia in closed-loop circuits to cool the station.
+
+![EATCS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_eatcs_icon.png?raw=true)
+
+### ISS Technical Docking Port
+
+This is a hooking part to weld together two elements where kerbonauts are not intended to pass through, and thus where traditional docking ports should not be used. This component does not exist in the real ISS and have been added for gameplay. Not compatible with other docking ports.
+
+![ITDP icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_itdp_icon.png?raw=true)
+
+[^1]: Since KSP2 does not have part heating, this only exists for looks.
+
 ## Assembly
 
 For those daring enough to recreate the ISS's assembly in its historical sequence, this is the suggested procedure.
@@ -64,14 +102,17 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 > [!TIP]
 > In the absence of Canadarm, the use of tugs is necessary.
 
-| Element                | Launcher[^1]           | Date          | Recommended parts                                                         |
+| Element                | Launcher[^2]           | Date          | Recommended parts                                                        |
 |---|---|---|---|
-| Zarya                  | Proton-K               | 1998-11-20    | Zarya, APAS-95 x3, Zvezda Solar Panel[^2] x2, RV-105 RCS x4 (stock)      |
+| Zarya                  | Proton-K               | 1998-11-20    | Zarya, APAS-95 x3, Zvezda Solar Panel[^3] x2, RV-105 RCS x4 (stock)      |
 | Unity / PMA-1 / PMA-2  | Space Shuttle (STS-88) | 1998-12-04    | Unity, PMA-1, PMA-2/3, CMB x8, APAS-95 x2                                |
 | Zvezda                 | Proton-K               | 2000-07-12    | Zvezda, APAS-95 x4, Zvezda Solar Panel x2, Place-Anywhere RCS x8 (stock) |
+| Z1 Truss               | Space Shuttle (STS-92) | 2000-10-11    | Z1 Truss, CBM x2, ITDP x2                                                |
+| PMA-3                  | Space Shuttle (STS-92) | 2000-10-11    | PMA-2/3, CMB, APAS-95                                                    |
+| P6 Truss               | Space Shuttle (STS-97) | 2000-11-30    | P6 Truss, EATCS x3, SAW x2, IDTP (x2 if you have to tug it)              |
 
-[^1]: Launchers are not included in this mod.
-[^2]: Zarya solar panels to be included in a future release.
+[^2]: Launchers are not included in this mod.
+[^3]: Zarya solar panels to be included in a future release.
 
 ## Pictures
 
@@ -87,15 +128,18 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 
 _(shuttle not included)_
 
-## Disclaimer
+## Disclaimers
 This mod features a semi-realistic modeling of the ISS as some liberties were taken with reality in order to allow the parts to integrate properly with the game with reasonable performance.
 
 For example the CBM, used to connect habitable elements in the US Orbital Segment of the ISS, is a non-androgynous system in reality but has been made androgynous in the game for simplicity.
+
+This mod's author did his best to make every space shuttle assembly mission possible by allowing the elements to be stored in the stock mk3 cargo bay. Some elements may however still prove difficult to store, such as Destiny (some clipping with the cargo bay) or the P6 truss segment (you will need to tuck the radiators in).
+
 ## Known Issues
 - RCS not included.
-- Parts are not available on the tech tree.
-- Zvezda Solar Panel is not self-tracking.
-- Zvezda Solar Panel deployment in the VAB is too slow.
+- Parts are not on the tech tree.
+- Solar panels are not self-tracking.
+- Solar panels deployments in the VAB are too slow.
 - Zarya does not have its own solar panel yet (you can use Zvezda's).
 - No reentry effects.
 - Kerbals located inside Zvezda do not show on the interior view windows.
