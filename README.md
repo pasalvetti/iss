@@ -85,7 +85,7 @@ Meet the solar panel that's seen more sunrises than a rooster. This retractable 
 
 The ISS's a busy place, and what happens when all that activity heats things up? The station's radiators come in, space's biggest heat dump! They collect heat and reject it by use of pumped liquid state ammonia in closed-loop circuits to cool the station.
 
-![EATCS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_eatcs_icon.png?raw=true)
+![EATCS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_eatcs_1x1_icon.png?raw=true)
 
 ### ISS Technical Docking Port
 
