@@ -93,7 +93,7 @@ This is a hooking part to weld together two elements where kerbonauts are not in
 
 ![ITDP icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_itdp_icon.png?raw=true)
 
-[^1]: Since KSP2 does not have part heating, this only exists for looks.
+[^1]: Since KSP2 does not have part heating, this part is just for looks.
 
 ## Assembly
 
@@ -110,6 +110,7 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 | Z1 Truss               | Space Shuttle (STS-92) | 2000-10-11    | Z1 Truss, CBM x2, ITDP x2                                                |
 | PMA-3                  | Space Shuttle (STS-92) | 2000-10-11    | PMA-2/3, CMB, APAS-95                                                    |
 | P6 Truss               | Space Shuttle (STS-97) | 2000-11-30    | P6 Truss, EATCS x3, SAW x2, IDTP (x2 if you have to tug it)              |
+| Destiny                | Space Shuttle (STS-98) | 2001-02-07    | Destiny, CBM x2                                                          |
 
 [^2]: Launchers are not included in this mod.
 [^3]: Zarya solar panels to be included in a future release.
