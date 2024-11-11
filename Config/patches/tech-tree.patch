@@ -1,0 +1,35 @@
+:science #tNode_1v_docking_01 {
+  UnlockedPartsIDs +: [ "iss_cbm","iss_apas-95" ];
+}
+
+:science #tNode_1v_electronics_04 {
+  UnlockedPartsIDs +: [ "iss_zvezda_solar_panel" ];
+}
+
+:science #tNode_2v_docking {
+  UnlockedPartsIDs +: [ "iss_itdp" ];
+}
+
+:science #tNode_2v_payload {
+  UnlockedPartsIDs +: [ "iss_zarya","iss_unity","iss_zvezda","iss_eatcs" ];
+}
+
+:science #tNode_2v_trusses_02 {
+  UnlockedPartsIDs +: [ "iss_pma1","iss_pma23" ];
+}
+
+:science #tNode_2v_electronics_01 {
+  UnlockedPartsIDs +: [ "iss_saw" ];
+}
+
+:science #tNode_2v_trusses_01 {
+  UnlockedPartsIDs +: [ "iss_z1_truss" ];
+}
+
+:science #tNode_2v_science_03 {
+  UnlockedPartsIDs +: [ "iss_destiny" ];
+}
+
+:science #tNode_3v_trusses_01 {
+  UnlockedPartsIDs +: [ "iss_p6_truss" ];
+}
