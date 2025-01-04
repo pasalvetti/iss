@@ -93,6 +93,36 @@
         "contactArea": 0.0,
         "overrideDragArea": 0.0,
         "isCompoundJoint": false
+      },
+      {
+        "nodeID": "srfAttach",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Surface",
+        "attachMethod": "HINGE_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": false,
+        "isRigid": true,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
       }
     ],
     "resourceContainers": [],

@@ -136,9 +136,9 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -0.5,
-          "y": -0.03,
-          "z": 1.0
+          "x": -0.3,
+          "y": 0.0,
+          "z": 1.2
         },
         "orientation": {
           "x": -1.0,

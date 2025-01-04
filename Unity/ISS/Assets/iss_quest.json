@@ -11,7 +11,7 @@
     "crewCapacity": 3,
     "stageOffset": 0,
     "isCompound": false,
-    "sizeCategory": "L",
+    "sizeCategory": "M",
     "stageType": "None",
     "resourceCosts": [],
     "tags": "",
@@ -47,7 +47,7 @@
       "y": 0.0,
       "z": 0.0
     },
-    "crashTolerance": 50.0,
+    "crashTolerance": 15.0,
     "explosionPotential": 0.5,
     "fuelCrossFeed": true,
     "heatConductivity": 0.12,
@@ -113,7 +113,7 @@
         "orientation": {
           "x": 0.0,
           "y": 0.0,
-          "z": -1.0
+          "z": 1.0
         },
         "size": 0,
         "visualSize": 0.0,
