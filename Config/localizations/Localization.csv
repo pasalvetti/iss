@@ -77,7 +77,7 @@ Parts/Description/iss_itdp,Text,,"This is a hooking part to weld together two el
 Parts/Title/iss_ssrms,Text,,SSRMS "Canadarm2"
 Parts/Subtitle/iss_ssrms,Text,,Space Station Remote Manipulator System
 Parts/Manufacturer/iss_ssrms,Text,,MD Robotics
-Parts/Description/iss_ssrms,Text,,"Launched to the ISS in 2001, the robotic arm plays a key role in station assembly and maintenance; it moves equipment and supplies around the station, supports astronauts working in space, and services instruments and other payloads attached to the ISS and is used for external maintenance. Capable of delicate repairs and heavy lifting, but still can't figure out how to unclog the space toilet."
+Parts/Description/iss_ssrms,Text,,"The robotic arm plays a key role in station assembly and maintenance; it moves equipment and supplies around the station, supports astronauts working in space, and services instruments and other payloads attached to the ISS. Though capable of delicate repairs and heavy lifting, it still can't figure out how to unclog the space toilet."
 
 Parts/Title/iss_quest,Text,,41R-L0K "Quest"
 Parts/Subtitle/iss_quest,Text,,Joint Airlock
@@ -87,4 +87,4 @@ Parts/Description/iss_quest,Text,,"Quest is the primary airlock for the ISS. It 
 Parts/Title/iss_s0_truss,Text,,S0 Truss
 Parts/Subtitle/iss_s0_truss,Text,,Center Integrated Truss Assembly Starboard 0 Truss
 Parts/Manufacturer/iss_s0_truss,Text,,Boeing
-Parts/Description/iss_s0_truss,Text,,"The S0 truss forms the central backbone of the Space Station. It was attached on the top of the Destiny Laboratory Module during STS-110 in April 2002. S0 is used to route power to the pressurized station modules and conduct heat away from the modules to the S1 and P1 Trusses."
+Parts/Description/iss_s0_truss,Text,,"The S0 truss forms the central backbone of the Space Station. It was attached on the top of the Destiny Module during STS-110 in April 2002. S0 is used to route power to the pressurized station modules and conduct heat away from the modules to the S1 and P1 Trusses."
