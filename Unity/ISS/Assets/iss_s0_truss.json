@@ -11,7 +11,7 @@
     "crewCapacity": 0,
     "stageOffset": 0,
     "isCompound": false,
-    "sizeCategory": "L",
+    "sizeCategory": "M",
     "stageType": "None",
     "resourceCosts": [],
     "tags": "",
@@ -47,12 +47,12 @@
       "y": 0.0,
       "z": 0.0
     },
-    "crashTolerance": 10.0,
+    "crashTolerance": 50.0,
     "explosionPotential": 0.5,
     "fuelCrossFeed": true,
     "heatConductivity": 0.12,
     "mass": 9.0,
-    "maxTemp": 2000.0,
+    "maxTemp": 850.0,
     "attachRules": {
       "stack": true,
       "srfAttach": true,
@@ -77,13 +77,13 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": 0.0,
-          "y": 0.0,
-          "z": 4.3
+          "y": 4.3,
+          "z": 0.0
         },
         "orientation": {
           "x": 0.0,
-          "y": 0.0,
-          "z": 1.0
+          "y": 1.0,
+          "z": 0.0
         },
         "size": 1,
         "visualSize": 1.0,
@@ -107,13 +107,13 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": 0.0,
-          "y": 0.0,
-          "z": -4.35
+          "y": -4.35,
+          "z": 0.0
         },
         "orientation": {
           "x": 0.0,
-          "y": 0.0,
-          "z": -1.0
+          "y": -1.0,
+          "z": 0.0
         },
         "size": 1,
         "visualSize": 1.0,
@@ -137,13 +137,13 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": -0.5,
-          "y": -1.0,
-          "z": -0.03
+          "y": -0.03,
+          "z": 1.0
         },
         "orientation": {
           "x": -1.0,
-          "y": -1.1,
-          "z": 0.0
+          "y": 0.0,
+          "z": 1.1
         },
         "size": 1,
         "visualSize": 1.0,

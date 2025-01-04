@@ -47,12 +47,12 @@
       "y": 0.0,
       "z": 0.0
     },
-    "crashTolerance": 10.0,
+    "crashTolerance": 50.0,
     "explosionPotential": 0.5,
     "fuelCrossFeed": true,
     "heatConductivity": 0.12,
     "mass": 3.65,
-    "maxTemp": 2000.0,
+    "maxTemp": 750.0,
     "attachRules": {
       "stack": true,
       "srfAttach": true,

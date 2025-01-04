@@ -47,14 +47,14 @@
       "y": 0.0,
       "z": 0.0
     },
-    "crashTolerance": 10.0,
+    "crashTolerance": 20.0,
     "explosionPotential": 0.5,
     "fuelCrossFeed": true,
     "heatConductivity": 0.12,
     "mass": 1.0,
-    "maxTemp": 2000.0,
+    "maxTemp": 800.0,
     "attachRules": {
-      "stack": false,
+      "stack": true,
       "srfAttach": true,
       "allowStack": false,
       "allowSrfAttach": false,
@@ -77,11 +77,11 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": 0.4,
-          "y": -1.28,
-          "z": -0.14
+          "y": 0.0,
+          "z": 0.0
         },
         "orientation": {
-          "x": 10.0,
+          "x": 1.0,
           "y": 0.0,
           "z": 0.0
         },
