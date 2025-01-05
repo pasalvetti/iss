@@ -77,7 +77,7 @@ Parts/Description/iss_itdp,Text,,"This is a hooking part to weld together two el
 Parts/Title/iss_ssrms,Text,,SSRMS "Canadarm2"
 Parts/Subtitle/iss_ssrms,Text,,Space Station Remote Manipulator System
 Parts/Manufacturer/iss_ssrms,Text,,MD Robotics
-Parts/Description/iss_ssrms,Text,,"The robotic arm plays a key role in station assembly and maintenance; it moves equipment and supplies around the station, supports astronauts working in space, and services instruments and other payloads attached to the ISS. Though capable of delicate repairs and heavy lifting, it still can't figure out how to unclog the space toilet."
+Parts/Description/iss_ssrms,Text,,"The robotic arm moves equipment and supplies around the station, supports astronauts working in space, and services instruments and other payloads attached to the ISS. Though capable of delicate repairs and heavy lifting, it still can't figure out how to unclog the station's toilet."
 
 Parts/Title/iss_quest,Text,,41R-L0K "Quest"
 Parts/Subtitle/iss_quest,Text,,Joint Airlock
