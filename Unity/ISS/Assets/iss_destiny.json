@@ -302,7 +302,7 @@
                   ],
                   "DenyInterruption": false,
                   "ExperimentUsesResources": false,
-                  "DeployedBoolAnimatorParamName": "isDeployed",
+                  "DeployedBoolAnimatorParamName": "",
                   "CFXName": "fx_science",
                   "SFXEvent": "Invalid"
                 },
