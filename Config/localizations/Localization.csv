@@ -88,3 +88,8 @@ Parts/Title/iss_s0_truss,Text,,S0 Truss
 Parts/Subtitle/iss_s0_truss,Text,,Center Integrated Truss Assembly Starboard 0 Truss
 Parts/Manufacturer/iss_s0_truss,Text,,Boeing
 Parts/Description/iss_s0_truss,Text,,"The S0 truss forms the central backbone of the Space Station. It was attached on the top of the Destiny Module during STS-110 in April 2002. S0 is used to route power to the pressurized station modules and conduct heat away from the modules to the S1 and P1 Trusses."
+
+Parts/Title/iss_mtsas,Text,,MTSAS
+Parts/Subtitle/iss_mtsas,Text,,Module-to-Truss Structure Attach System
+Parts/Manufacturer/iss_mtsas,Text,,Boeing
+Parts/Description/iss_mtsas,Text,,"The MTSAS is a crucial, permanent component on the ISS that connects the S0 truss segment to the Destiny lab. This structure must withstand dynamic loads, pressure, and thermal cycles throughout the station's lifespan."
