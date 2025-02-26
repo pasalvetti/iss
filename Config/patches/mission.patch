@@ -1,0 +1,145 @@
+@use "builtin:missions";
+
+// modifications to stock missions
+:missions {
+// adds ISS_Secondary_ISS01_Zarya to One Small Step
+    #Main_Mun_OSS {
+        * > ContentBranches > OnSubmit > ActivateMissionAction {
+            +ActivateMissionAction {
+                TargetMissionID: ISS_Secondary_ISS01_Zarya;
+                MissionOwner: Agency;
+            }
+		}
+    }
+}
+
+// add new missions
+// ISS mission 1: Zarya
+@new(ISS_Secondary_ISS01_Zarya)
+:missions {
+    MissionGroup: "";
+    name: "Missions/Secondary/ISS01/Name";
+    description: "Missions/Secondary/ISS01/Description";
+    GameModeFeatureId: ExplorationMissions;
+    type: Secondary;
+    Owner: Agency;
+    state: Inactive;
+    * > missionStages {
+        +_0 {
+            name: Check;
+            description: "";
+            Objective: "Missions/Secondary/ISS01/Objective";
+            MissionRewardType: None;
+            DisplayObjective: true;
+            +ConditionSet {
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(VesselSOIPropertyWatcher);
+                    TestWatchedstring: Kerbin;
+                    propOperator: EQUAL;
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(VehicleApoapsisAltitudePropertyWatcher);
+                    TestWatchedValue: 200000.0;
+                    propOperator: LESSER;
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(VehiclePeriapsisAltitudePropertyWatcher);
+                    TestWatchedValue: 180000.0;
+                    propOperator: GREATER;
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(OrbitInclination);
+                    TestWatchedValue: 50.0;
+                    propOperator: GREATER;
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(OrbitInclination);
+                    TestWatchedValue: 52.0;
+                    propOperator: LESSER;
+                    isInput: false;
+                }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(HasPart);
+                    propOperator: EQUAL;
+                    isInput: true;
+                    Inputstring: "iss_zarya";
+                }
+                ConditionMode: AND;
+            }
+        }
+        +_1 {
+            name: "Mission Complete";
+            description: "";
+            Objective: "";
+            * > MissionReward {
+                +SciencePoints {
+                    RewardAmount: 100.0;
+                }
+            }
+            * > actions {
+                +MissionResolutionAction {
+                    MissionResolution: Complete;
+                    StageEvent: Play_mission_alert_secondary;
+                }
+            }
+            IgnoreExceptionBranches: true;
+        }
+    }
+    currentStageIndex: 0;
+    Hidden: false;
+    MissionGranterKey: MissionGranterKSC;
+    TriumphLoopVideoKey: TriumphAnimation_PM02;
+    VisibleRewards: true;
+    pendingCompletionTest: false;
+    maxStageID: 2;
+    uiDisplayType: Default;
+    * > ContentBranches {
+		+Debrief {
+            +MissionCharacterDialogAction {
+                CharacterNameLocKey: "Missions/CharacterName/Keri";
+                CharacterIconKey: keri_happy;
+                * > Dialogs {
+                    Entries: [
+                        {
+                            ShowsInHistory: true,
+                            DialogEntryType: Text,
+                            LocKey: "Missions/Secondary/ISS01/Debrief01",
+                            ContentAddressableKey: keri_happy,
+                        },
+                        {
+                            ShowsInHistory: true,
+                            DialogEntryType: Text,
+                            LocKey: "Missions/Secondary/ISS01/Debrief02",
+                            ContentAddressableKey: keri_happy,
+                        },
+                        {
+                            ShowsInHistory: true,
+                            DialogEntryType: Text,
+                            LocKey: "Missions/Secondary/ISS01/Debrief03",
+                            ContentAddressableKey: keri_happy,
+                        },
+                    ];
+                }
+                EventTypeOnClosed: get-message(SpawnTriumphWindow);
+                StageEvent: reward_mission_tier1;
+            }
+        }
+        +OnSubmit {
+			+ActivateMissionAction {
+				TargetMissionID: ISS_Secondary_ISS02_Unity;
+				MissionOwner: Agency;
+			}
+        }
+    }
+    MissionSaveAssetKey: "";
+}
