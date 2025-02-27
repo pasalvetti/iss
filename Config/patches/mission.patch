@@ -4,7 +4,7 @@
 :missions {
 // adds ISS_Secondary_ISS01_Zarya to One Small Step
     #Main_Mun_OSS {
-        * > ContentBranches > OnSubmit > ActivateMissionAction {
+        * > ContentBranches > OnSubmit {
             +ActivateMissionAction {
                 TargetMissionID: ISS_Secondary_ISS01_Zarya;
                 MissionOwner: Agency;
