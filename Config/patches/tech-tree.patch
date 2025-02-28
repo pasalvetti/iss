@@ -1,3 +1,8 @@
+// for testing
+:science {
+  RequiredSciencePoints *: 0.1;
+}
+
 :science #tNode_1v_docking_01 {
   UnlockedPartsIDs +: [ "iss_cbm","iss_apas-95" ];
 }

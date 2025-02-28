@@ -96,7 +96,7 @@ Parts/Description/iss_mtsas,Text,,"The MTSAS is a crucial, permanent component o
 
 
 
-Missions/Secondary/ISS01/Name,Text,,"ISS mission 1: Zarya"
+Missions/Secondary/ISS01/Name,Text,,"ISS Mission 1: Zarya"
 Missions/Secondary/ISS01/Description,Text,,"We embark on a truly historic endeavor, a mission that will mark the beginning of a new era in Kerbal space exploration. We are about to lay the foundation for the International Space Station, or ISS. When complete, it will be the largest space station ever constructed and will serve as a permanent research platform in low Kerbin orbit, a place where scientists from around the world can conduct experiments in microgravity and study the harsh environment of space.
 
 Today, we begin construction with the launch of its inaugural component: Zarya. Meaning “Dawn,” Zarya will serve as the ISS’s primary source of power, propulsion, and guidance.
@@ -111,7 +111,7 @@ Missions/Secondary/ISS01/Debrief03,Text,,"Zarya, the 'Dawn' module. Perfect name
 
 
 
-Missions/Secondary/ISS02/Name,Text,,"ISS mission 2: Unity"
+Missions/Secondary/ISS02/Name,Text,,"ISS Mission 2: Unity"
 Missions/Secondary/ISS02/Description,Text,,"We’re ready to take the next step in the construction of the ISS. Today, we’re launching Unity, the second module, and docking it with Zarya. Unity is a hub with multiple docking mechanisms where future modules will connect. We need to not only launch Unity into the correct orbit, but also perform a rendezvous and docking maneuver with Zarya. This requires careful planning, precise execution, and a healthy dose of Kerbal awesomeness."
 Missions/Secondary/ISS02/Objective,Text,,"Dock Unity, along with PMA-1 and PMA-2, to Zarya, with no crew."
 
