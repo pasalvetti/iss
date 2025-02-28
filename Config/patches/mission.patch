@@ -74,6 +74,13 @@
                     isInput: true;
                     Inputstring: "iss_zarya";
                 }
+                +PropertyCondition {
+                    RequireCurrentValue: true;
+                    PropertyTypeAQN: get-property-watcher(CrewCount);
+                    TestWatchedInt: 0;
+                    propOperator: EQUAL;
+                    isInput: false;
+                }
                 ConditionMode: AND;
             }
         }
