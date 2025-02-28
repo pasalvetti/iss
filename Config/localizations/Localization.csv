@@ -107,3 +107,14 @@ Missions/Secondary/ISS01/Objective,Text,,"Place the Zarya module in a stable orb
 Missions/Secondary/ISS01/Debrief01,Text,,"Zarya is in orbit! I was worried for a moment there. The rocket was making some interesting noises during ascent. Sounded like Jeb was trying to play the bagpipes inside the fuel tank."
 Missions/Secondary/ISS01/Debrief02,Text,,"This is a momentous occasion, Director. We have taken the first step on a journey that will lead to the construction of a permanent Kerbal presence in low orbit. This is just the beginning. We have many more modules to launch, many more experiments to conduct, many more dreams to fulfill. But today, we celebrate this milestone."
 Missions/Secondary/ISS01/Debrief03,Text,,"Zarya, the 'Dawn' module. Perfect name! Because now it’s the dawn of me having to manage even more paperwork. Thanks, Zarya."
+
+
+
+
+Missions/Secondary/ISS02/Name,Text,,"ISS mission 2: Unity"
+Missions/Secondary/ISS02/Description,Text,,"We’re ready to take the next step in the construction of the ISS. Today, we’re launching Unity, the second module, and docking it with Zarya. Unity is a hub with multiple docking mechanisms where future modules will connect. We need to not only launch Unity into the correct orbit, but also perform a rendezvous and docking maneuver with Zarya. This requires careful planning, precise execution, and a healthy dose of Kerbal awesomeness."
+Missions/Secondary/ISS02/Objective,Text,,"Dock Unity, along with PMA-1 and PMA-2, to Zarya, with no crew."
+
+Missions/Secondary/ISS02/Debrief01,Text,,"Congratulations for a perfect rendezvous and docking, Director. It’s a beautiful sight to behold, Unity connected to Zarya."
+Missions/Secondary/ISS02/Debrief02,Text,,"Now, with Unity in place, we’re ready to add more modules!"
+Missions/Secondary/ISS02/Debrief03,Text,,"I just hope they remembered to label the docking ports. We wouldn’t want to accidentally attach the bathroom to the science lab."
