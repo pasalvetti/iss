@@ -278,19 +278,19 @@
                         {
                             ShowsInHistory: true,
                             DialogEntryType: Text,
-                            LocKey: "Missions/Secondary/ISS01/Debrief01",
+                            LocKey: "Missions/Secondary/ISS02/Debrief01",
                             ContentAddressableKey: keri_thinking,
                         },
                         {
                             ShowsInHistory: true,
                             DialogEntryType: Text,
-                            LocKey: "Missions/Secondary/ISS01/Debrief02",
+                            LocKey: "Missions/Secondary/ISS02/Debrief02",
                             ContentAddressableKey: keri_thinking,
                         },
                         {
                             ShowsInHistory: true,
                             DialogEntryType: Text,
-                            LocKey: "Missions/Secondary/ISS01/Debrief03",
+                            LocKey: "Missions/Secondary/ISS02/Debrief03",
                             ContentAddressableKey: keri_thinking,
                         },
                     ];
