@@ -282,6 +282,72 @@
             }
           }
         ]
+      },
+      {
+        "Name": "PartComponentModule_ActiveRadiator",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Cooler",
+            "ModuleType": "KSP.Modules.Module_Cooler, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Cooler, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Cooler, Assembly-CSharp",
+              "currentCoolerState": "OFF",
+              "coolerEnabled": {
+                "ContextKey": "coolerEnabled",
+                "storedValue": false
+              },
+              "coolerStatusText": {
+                "ContextKey": "coolerStatusText",
+                "storedValue": "Powered Off"
+              },
+              "isTransformInContact": false,
+              "hasEnoughResources": true,
+              "resourceDiplayNames": [],
+              "fluxRemoved": 1000.0,
+              "emissiveLerpRateUp": 0.1,
+              "emissiveLerpRateDown": 0.01,
+              "emissiveMaterialNames": [],
+              "fxGroupName": "cooler",
+              "fxPrefab": "fx_gasburst_01",
+              "requiredResources": [
+                {
+                  "Rate": 0.1,
+                  "ResourceName": "ElectricCharge",
+                  "AcceptanceThreshold": 0.0
+                }
+              ],
+              "InputResourcesIDs": [],
+              "RequestConfigs": [],
+              "ModuleType": "KSP.Modules.Module_Cooler, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Cooler, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          },
+          {
+            "Name": "Data_ActiveRadiator",
+            "ModuleType": "KSP.Modules.Module_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_ActiveRadiator, Assembly-CSharp",
+              "RadiatorDirection": "X",
+              "ProceduralRadiatorFluxPerAreaUnit": 0.0,
+              "ModuleType": "KSP.Modules.Module_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_ActiveRadiator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
       }
     ],
     "resourceSummary": {
