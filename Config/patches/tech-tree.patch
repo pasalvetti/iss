@@ -12,7 +12,7 @@
 }
 
 :science #tNode_2v_construction_02 {
-  UnlockedPartsIDs +: [ "iss_mtsas " ];
+  UnlockedPartsIDs +: [ "iss_mtsas" ];
 }
 
 :science #tNode_2v_docking {
