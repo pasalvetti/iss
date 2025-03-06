@@ -196,6 +196,6 @@ For some parts of the ISS : NASA (https://github.com/nasa/NASA-3D-Resources), Ze
 Adaptation & mod by Polo
 
 [^1]: Since KSP2 does not have robotics, this part is just for looks.
-[^2]: You need to install Meltdown to add heat management to the game and make it a functionnal radiator.
+[^2]: You need to install [Meltdown](https://spacedock.info/mod/3822/Meltdown) to add heat management to the game and make it a functionnal radiator.
 [^3]: Launchers are not included in this mod.
 [^4]: Zarya solar panels to be included in a future release.
