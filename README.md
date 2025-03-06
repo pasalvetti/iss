@@ -33,6 +33,18 @@ The Destiny module is the primary operating facility for US research payloads ab
 
 ![Destiny icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_destiny_icon.png?raw=true)
 
+### Canadarm2 (SSRMS)[^1]
+
+The robotic arm moves equipment and supplies around the station, supports kerbonauts working in space, and services instruments and other payloads attached to the ISS. Though capable of delicate repairs and heavy lifting, it still can't figure out how to unclog the station's toilet.
+
+![SSRMS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_ssrms_icon.png?raw=true)
+
+### Quest
+
+Quest is the primary airlock for the ISS. It was designed to host spacewalks with both US and Russian space suits. The airlock was launched on STS-104 on July 14, 2001.
+
+![Quest icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_quest_icon.png?raw=true)
+
 ### Z1 Truss
 
 The Z1 truss is the ISS's master of orientation, the king of control. It’s like the captain of a ship, always making sure everyone is headed in the right direction. With its gyroscopes and plasma pals, it's got the station spinning and twirling like a top, ensuring it's always facing the sun just right.
@@ -44,6 +56,12 @@ The Z1 truss is the ISS's master of orientation, the king of control. It’s lik
 The P6 truss was the second truss segment to be added (after the Z1 truss) because it contains a large Solar Array Wing (SAW) that generated essential electricity for the station. It was delivered by Space Shuttle Endeavour during STS-97. It was the last human spaceflight of the 20th century.
 
 ![P6 Truss icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_p6_truss_icon.png?raw=true)
+
+### S0 Truss
+
+The S0 truss forms the central backbone of the Space Station. It was attached on the top of the Destiny Module during STS-110 in April 2002. S0 is used to route power to the pressurized station modules and conduct heat away from the modules to the S1 and P1 Trusses.
+
+![SO Truss icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_s0_truss_icon.png?raw=true)
 
 ### Solar Array Wing
 
@@ -81,11 +99,17 @@ Meet the solar panel that's seen more sunrises than a rooster. This retractable 
 
 ![Zvezda Solar Panel icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_zvezda_solar_panel_icon.png?raw=true)
 
-### External Active Thermal Control System[^1]
+### External Active Thermal Control System[^2]
 
 The ISS's a busy place, and what happens when all that activity heats things up? The station's radiators come in, space's biggest heat dump! They collect heat and reject it by use of pumped liquid state ammonia in closed-loop circuits to cool the station.
 
 ![EATCS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_eatcs_1x1_icon.png?raw=true)
+
+### Module-to-Truss Structure Attach System
+
+The MTSAS is a crucial, permanent component on the ISS that connects the S0 truss segment to the Destiny lab. This structure must withstand dynamic loads, pressure, and thermal cycles throughout the station's lifespan.
+
+![MTSAS icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_mtsas_icon.png?raw=true)
 
 ### ISS Technical Docking Port
 
@@ -93,7 +117,15 @@ This is a hooking part to weld together two elements where kerbonauts are not in
 
 ![ITDP icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_itdp_icon.png?raw=true)
 
-[^1]: Since KSP2 does not have part heating, this part is just for looks.
+### Small ISS Technical Docking Port
+
+This docking port is intended to join together small elements of the ISS, such as the Canadarm to the surface of a module.
+
+![SITDP icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_sitdp_icon.png?raw=true)
+
+[^1]: Since KSP2 does not have robotics, this part is just for looks.
+
+[^2]: You need to install Meltdown to add heat management to the game and make it a functionnal radiator.
 
 ## Assembly
 
@@ -110,7 +142,10 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 | Z1 Truss               | Space Shuttle (STS-92) | 2000-10-11    | Z1 Truss, CBM x2, ITDP x2                                                |
 | PMA-3                  | Space Shuttle (STS-92) | 2000-10-11    | PMA-2/3, CMB, APAS-95                                                    |
 | P6 Truss               | Space Shuttle (STS-97) | 2000-11-30    | P6 Truss, EATCS x3, SAW x2, IDTP (x2 if you have to tug it)              |
-| Destiny                | Space Shuttle (STS-98) | 2001-02-07    | Destiny, CBM x2                                                          |
+| Destiny/ESP-1          | Space Shuttle (STS-98) | 2001-02-07    | Destiny, CBM x2, ITDP (for MTSAS), SITDP (for SSRMS)                     |
+| Canadarm2 (SSRMS)      | Space Shuttle (STS-100)| 2001-04-19    | Destiny, SITDP x2                                                        |
+| Quest                  | Space Shuttle (STS-104)| 2001-07-12    | Destiny, CBM x2                                                          |
+| S0 Truss/MBS           | Space Shuttle (STS-110)| 2001-04-08    | S0 Truss, ITDP x3, MTSAS                                                 |
 
 [^2]: Launchers are not included in this mod.
 [^3]: Zarya solar panels to be included in a future release.
