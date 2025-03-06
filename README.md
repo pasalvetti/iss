@@ -123,10 +123,6 @@ This docking port is intended to join together small elements of the ISS, such a
 
 ![SITDP icon](https://github.com/pasalvetti/iss/blob/main/Icones/iss_sitdp_icon.png?raw=true)
 
-[^1]: Since KSP2 does not have robotics, this part is just for looks.
-
-[^2]: You need to install Meltdown to add heat management to the game and make it a functionnal radiator.
-
 ## Assembly
 
 For those daring enough to recreate the ISS's assembly in its historical sequence, this is the suggested procedure.
@@ -134,9 +130,9 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 > [!TIP]
 > In the absence of Canadarm, the use of tugs is necessary.
 
-| Element                | Launcher[^2]           | Date          | Recommended parts                                                        |
+| Element                | Launcher[^3]           | Date          | Recommended parts                                                        |
 |---|---|---|---|
-| Zarya                  | Proton-K               | 1998-11-20    | Zarya, APAS-95 x3, Zvezda Solar Panel[^3] x2, RV-105 RCS x4 (stock)      |
+| Zarya                  | Proton-K               | 1998-11-20    | Zarya, APAS-95 x3, Zvezda Solar Panel[^4] x2, RV-105 RCS x4 (stock)      |
 | Unity / PMA-1 / PMA-2  | Space Shuttle (STS-88) | 1998-12-04    | Unity, PMA-1, PMA-2/3, CMB x8, APAS-95 x2                                |
 | Zvezda                 | Proton-K               | 2000-07-12    | Zvezda, APAS-95 x4, Zvezda Solar Panel x2, Place-Anywhere RCS x8 (stock) |
 | Z1 Truss               | Space Shuttle (STS-92) | 2000-10-11    | Z1 Truss, CBM x2, ITDP x2                                                |
@@ -147,8 +143,7 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 | Quest                  | Space Shuttle (STS-104)| 2001-07-12    | Destiny, CBM x2                                                          |
 | S0 Truss/MBS           | Space Shuttle (STS-110)| 2001-04-08    | S0 Truss, ITDP x3, MTSAS                                                 |
 
-[^2]: Launchers are not included in this mod.
-[^3]: Zarya solar panels to be included in a future release.
+
 
 ## Pictures
 
@@ -199,3 +194,8 @@ Forum: https://forum.kerbalspaceprogram.com/topic/225883-the-iss-construction-ki
 ## Credits
 For some parts of the ISS : NASA (https://github.com/nasa/NASA-3D-Resources), Zer0Frost (https://github.com/Zer0Frost/3D-ISS-for-blender)
 Adaptation & mod by Polo
+
+[^1]: Since KSP2 does not have robotics, this part is just for looks.
+[^2]: You need to install Meltdown to add heat management to the game and make it a functionnal radiator.
+[^3]: Launchers are not included in this mod.
+[^4]: Zarya solar panels to be included in a future release.
