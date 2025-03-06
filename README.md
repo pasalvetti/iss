@@ -6,7 +6,7 @@ _An ISS parts mod for Kerbal Space Program 2_
 
 This mod seeks to provide ISS and space modeling enthusiasts with all of the station's components (eventually) so that they can recreate its construction in the historical sequence of assembly, or simply use them to construct the space station of their dreams.
 
-![The ISS above Kerbin](https://github.com/pasalvetti/iss/blob/main/Communication/iss021.png?raw=true)
+![The ISS above Kerbin](https://github.com/pasalvetti/iss/blob/main/Communication/iss033.png?raw=true)
 
 ## Gallery
 ### Zarya
@@ -152,15 +152,15 @@ For those daring enough to recreate the ISS's assembly in its historical sequenc
 
 ## Pictures
 
-![The first stages of the ISS in orbit](https://github.com/pasalvetti/iss/blob/main/Communication/iss019.png?raw=true)
+![The first stages of the ISS in orbit](https://github.com/pasalvetti/iss/blob/main/Communication/iss028.png?raw=true)
 
 ![A view of the VAB with the first stages of the ISS assembled](https://github.com/pasalvetti/iss/blob/main/Communication/iss008.png?raw=true)
 
-![The ISS as it was in 2001](https://github.com/pasalvetti/iss/blob/main/Communication/iss023.png?raw=true)
+![The ISS as it was in 2001](https://github.com/pasalvetti/iss/blob/main/Communication/iss032.png?raw=true)
 
 ![Endeavour delivering the Destiny module during the STS-98 mission](https://github.com/pasalvetti/iss/blob/main/Communication/iss025.png?raw=true)
 
-![The Orbiter docked to the ISS](https://github.com/pasalvetti/iss/blob/main/Communication/iss026.png?raw=true)
+![ISS](https://github.com/pasalvetti/iss/blob/main/Communication/iss029.png?raw=true)
 
 _(shuttle not included)_
 
@@ -169,16 +169,17 @@ This mod features a semi-realistic modeling of the ISS as some liberties were ta
 
 For example the CBM, used to connect habitable elements in the US Orbital Segment of the ISS, is a non-androgynous system in reality but has been made androgynous in the game for simplicity.
 
-This mod's author did his best to make every space shuttle assembly mission possible by allowing the elements to be stored in the stock mk3 cargo bay. Some elements may however still prove difficult to fit in, such as Destiny (some clipping with the cargo bay) or the P6 truss segment (you will need to tuck the radiators in).
+This mod's author did his best to make every space shuttle assembly mission possible by allowing the elements to be stored in the stock mk3 cargo bay. Some elements may however still prove difficult to fit in, such as the P6 truss segment (you will need to tuck the radiators in).
 
 ## Known Issues
 - RCS not included.
-- Parts are not on the tech tree.
+- Most parts are not paintable.
 - Solar panels are not self-tracking.
 - Solar panels deployments in the VAB are too slow.
 - Zarya does not have its own solar panel yet (you can use Zvezda's).
 - No reentry effects.
 - Kerbals located inside Zvezda do not show on the interior view windows.
+- Quest is not a functional airlock.
 ## Installation
 1. Open the game folder by right-clicking on the game in your Steam library, selecting "Manage," and then clicking "Browse local files."
 2. Install the [Space Warp + BepinEx plugin](https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx) (available on CKAN).
