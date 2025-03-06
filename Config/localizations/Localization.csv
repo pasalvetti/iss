@@ -94,6 +94,11 @@ Parts/Subtitle/iss_mtsas,Text,,Module-to-Truss Structure Attach System
 Parts/Manufacturer/iss_mtsas,Text,,Boeing
 Parts/Description/iss_mtsas,Text,,"The MTSAS is a crucial, permanent component on the ISS that connects the S0 truss segment to the Destiny lab. This structure must withstand dynamic loads, pressure, and thermal cycles throughout the station's lifespan."
 
+Parts/Title/iss_sitdp,Text,,SITDP "Super Tiny"
+Parts/Subtitle/iss_sitdp,Text,,Small ISS Technical Docking Port
+Parts/Manufacturer/iss_sitdp,Text,,Polo Kornel Inc.
+Parts/Description/iss_sitdp,Text,,"This docking port is intended to join together small elements of the ISS, such as the Canadarm to the surface of a module."
+
 
 
 Missions/Secondary/ISS01/Name,Text,,"ISS Mission 1: Zarya"
