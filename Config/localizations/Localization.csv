@@ -99,7 +99,7 @@ Parts/Description/iss_mtsas,Text,,"The MTSAS is a crucial, permanent component o
 Missions/Secondary/ISS01/Name,Text,,"ISS Mission 1: Zarya"
 Missions/Secondary/ISS01/Description,Text,,"We embark on a truly historic endeavor, a mission that will mark the beginning of a new era in Kerbal space exploration. We are about to lay the foundation for the International Space Station, or ISS. When complete, it will be the largest space station ever constructed and will serve as a permanent research platform in low Kerbin orbit, a place where scientists from around the world can conduct experiments in microgravity and study the harsh environment of space.
 
-Today, we begin construction with the launch of its inaugural component: Zarya. Meaning “Dawn,” Zarya will serve as the ISS’s primary source of power, propulsion, and guidance.
+Today, we begin construction with the launch of its inaugural component: Zarya. Meaning “Dawn”, Zarya will serve as the ISS’s primary source of power, propulsion, and guidance.
 
 This is a momentous occasion, Director. We are not just launching a module; we are launching a dream. A dream of a permanent Kerbal presence in space, a dream of international cooperation, a dream of a future where Kerbals can live and work among the stars."
 Missions/Secondary/ISS01/Objective,Text,,"Place the Zarya module in orbit around Kerbin with an altitude between 180 km and 200 km and an inclination of 51°, with no crew."
